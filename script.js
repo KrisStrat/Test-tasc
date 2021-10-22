@@ -7,8 +7,8 @@ function open() {
 function close() {
   i.style.display = "none";
 }
- x.onclick = open();
+ x.addEventListener("click", open);
 
-if (i.style.display = "block") {
-  c.onclick = close();
+if (i.style.display === "block") {
+  c.addEventListener("click" , close);
 }
