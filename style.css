@@ -41,14 +41,14 @@ nav:nth-child(even) {
   margin-left: 2vw;
 }
 
-a {
+span {
   text-decoration: none;
   color: #808080;
 }
-a:hover {
+span:hover {
   color: red;
 }
-a:active {
+span:active {
   color: red;
 }
 
