@@ -1,6 +1,6 @@
-let x = getElementById('buy');
-let c = getElementById('close');
-let i = getElementById('pop_up')
+let x = document.getElementById('buy');
+let c = document.getElementById('close');
+let i = document.getElementById('pop_up')
 function open() {
  i.style.display = "block";
 }
