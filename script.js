@@ -2,7 +2,6 @@ let x = getElementById('buy');
 let c = getElementById('close');
 let i = getElementById('pop_up')
 function open() {
- i = getElementById('pop_up') ;
  i.style.display = "block";
 }
 function close() {
@@ -11,7 +10,5 @@ function close() {
  x.onclick = open;
 
 if (i.style.display = "block") {
-  c.onclick = close() {
-    i.style.display = "none";
-  }
+  c.onclick = close();
 }
